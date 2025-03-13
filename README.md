@@ -1,7 +1,7 @@
 # QuadLA
 This repository contains MATLAB code which determines whether an order in a number field is locally associated.
 
-The file AssociatedOrders.xlsx contains a table identifying orders in real quadratic number fields which are half-factorial, associated, ideal-preserving, locally associated, or none of the above.
+The file AssociatedOrders.zip unzips into an Excel file containing a table identifying orders in real quadratic number fields which are half-factorial, associated, ideal-preserving, locally associated, or none of the above.
 Every order of index n<=10000 in the number field Q[sqrt(d)] for d<1000 is identified.
 In this table, the cell in row n, column d refers to the order of index n in the quadratic number field Q[sqrt(d)].
 In each cell, 'H' (light green) indicates that an order is half-factorial (and thus associated, ideal-preserving, and locally associated).
