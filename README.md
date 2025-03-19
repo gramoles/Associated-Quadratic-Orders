@@ -13,7 +13,7 @@ In each cell, 'H' (light green) indicates that an order is half-factorial (and t
 
 Notably, this table identifies 29,163 half-factorial orders which are not integrally closed.
 
-This table was produced using the MATLAB program quadLA.m, which indicates whether the order of index n in Q[sqrt(d)] is ideal-preserving and/or locally associated given n, d, and the fundamental unit fu.
+This table was produced using the MATLAB program quadLA.m, which indicates whether the order of index n>1 in Q[sqrt(d)] is ideal-preserving and/or locally associated given n, d, and the fundamental unit fu.
 A script was run to apply this program to every order found in the table; fundamental units were generated using SageMath and read into MATLAB using a .csv file.
 Some quadratic number fields had units too large for MATLAB to properly work with; for these orders, SageMath was used to check the properties of the order (this was slower than MATLAB but was necessary for some number fields).
 To determine which orders were half-factorial, the rings of algebraic integers with class number <=2 were entered manually. Excel was then used to identify all the associated orders in these number rings whose index is either prime or twice an odd prime (using a result of Franz Halter-Koch).
