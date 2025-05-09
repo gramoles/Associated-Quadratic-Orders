@@ -1,0 +1,16 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: QuadLA
+message: >-
+  If you use the software or the reference table included in
+  this repository, please cite it as below.
+type: software
+authors:
+  - given-names: Grant
+    family-names: Moles
+    orcid: 'https://orcid.org/0000-0002-9404-5159'
+license: MIT
+version: 1.0.0
+date-released: '2025-03-13'
