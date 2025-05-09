@@ -1,4 +1,4 @@
-# QuadLA
+# Associated Quadratic Orders
 This repository contains MATLAB code which determines whether an order in a number field is locally associated.
 
 The file AssociatedOrders.zip unzips into an Excel file containing a table identifying orders in real quadratic number fields which are half-factorial, associated, ideal-preserving, locally associated, or none of the above.
