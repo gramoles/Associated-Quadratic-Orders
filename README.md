@@ -4,7 +4,9 @@ This repository contains MATLAB code which determines whether an order in a numb
 The file AssociatedOrders.zip unzips into an Excel file containing a table identifying orders in real quadratic number fields which are half-factorial, associated, ideal-preserving, locally associated, or none of the above.
 Every order of index n<=10000 in the number field Q[sqrt(d)] for d<1000 is identified.
 In this table, the cell in row n, column d refers to the order of index n in the quadratic number field Q[sqrt(d)].
-In each cell, 'H' (light green) indicates that an order is half-factorial (and thus associated, ideal-preserving, and locally associated).
+In each cell:
+'U' (lightest green) indicates that a ring of integers is a UFD (i.e. has class number 1)
+'H' (light green) indicates that an order is half-factorial (and thus associated, ideal-preserving, and locally associated).
 'A' (dark green) indicates that an order is associated (and thus ideal-preserving and locally associated) but NOT half-factorial.
 'I' (blue) indicates that an order is ideal-preserving but NOT locally associated (and thus NOT half-factorial or associated).
 'L' (yellow) indicates that an order is locally associted by NOT ideal-preserving (and thus NOT half-factorial or associated).
